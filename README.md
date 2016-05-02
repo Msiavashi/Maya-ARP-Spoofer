@@ -1,5 +1,5 @@
 # Maya-ARP-Spoofer
-a yet very simple arp poisoner . i try to keep improving it though :)
+a yet very simple arp poisoner written in Ruby. i try to keep improving it though :)
 
 #INSTALLING PAKCETFU
 first you need to install packetfu gem
