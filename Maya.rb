@@ -6,7 +6,7 @@ require 'packetfu'
 @interface = @args.include?('-i')? @args[@args.find_index('-i') + 1] : nil
 @victim_mac_addr = nil #@args[@args.find_index('-vM') + 1]
 @victim_ip_addr =  @args.include?('-vI') ? @args[@args.find_index('-vI') + 1] : nil
-@default_gateway = @args[@args.find_index('-g') +1]
+@default_gateway = @args.include?('-g') ? @args[@args.find_index('-g') +1] : nil
 @net_info = PacketFu::Utils.whoami?( :iface => @interface)
 
 
