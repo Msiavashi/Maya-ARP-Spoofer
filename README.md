@@ -20,7 +20,7 @@ to start sniffing all the arp packets goes over the network:
 	
 #EXAMPLE
 
-sudo ruby Maya.rb -i 'wlo1' -vI 192.168.0.106 -g 192.168.0.1
+sudo ruby Maya.rb -i 'wlo1' -vI 192.168.0.106 -g 192.168.0.1 \n
 
 sudo ruby Maya -s -g '192.168.0.1'
 
